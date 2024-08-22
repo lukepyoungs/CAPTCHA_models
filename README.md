@@ -35,7 +35,6 @@ This project is complete, but contributions are welcome! If you have suggestions
 ## 💬 Contact
 
 - **GitHub:** [lukepyoungs](https://github.com/lukepyoungs)
-- **Email:** your-email@example.com
 
 ---
 
