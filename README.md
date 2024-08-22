@@ -1,6 +1,42 @@
-# CAPTCHA_models
-Digital Image Processing Term Project <br>
+# 🔐 CAPTCHA Models Project
 
-## ABSTRACT
+![GitHub last commit](https://img.shields.io/github/last-commit/lukepyoungs/CAPTCHA_models?color=brightgreen) ![GitHub repo size](https://img.shields.io/github/repo-size/lukepyoungs/CAPTCHA_models?color=orange) ![GitHub stars](https://img.shields.io/github/stars/lukepyoungs/CAPTCHA_models?style=social)
 
-CAPTCHA images have been used for a while to determine if a user of a service is a real person or a machine. In this paper we address the question of whether these image tests are advanced enough to defeat current image processing algorithms. By trying a variety of different models on two different CAPTCHA datasets (CAPTCHA and ReCAPTCHA v2), we are able to compare the effectiveness of our best models on both datasets. Convolutional Neural Networks created in Keras were able to perform very well against the first generation of CAPTCHA images, but the team had to find more powerful methods to create the best model for ReCAPTCHA images in a pre-trained model. 
+**CAPTCHA Models Project** is focused on developing and training machine learning models to solve CAPTCHA challenges, including reCAPTCHA. The project explores image preprocessing techniques and utilizes a convolutional neural network (CNN) architecture to achieve high accuracy.
+
+## 🌟 Key Features
+
+- **📸 Image Preprocessing:** Custom functions for image thresholding, dilation, smoothing, and more using OpenCV.
+- **🧠 CNN Implementation:** Utilizes InceptionV3 architecture, fine-tuned for CAPTCHA image classification.
+- **🔄 Data Augmentation:** ImageDataGenerator used for rescaling, zooming, and flipping images during training.
+- **📊 Model Evaluation:** Detailed accuracy and loss plots, along with classification reports for model performance.
+
+> **Status:** This project is complete, showcasing CAPTCHA-solving models built with TensorFlow and Keras.
+
+## 🛠️ Technologies Used
+
+- **Python**: Core programming language.
+- **TensorFlow & Keras**: Deep learning frameworks for model building and training.
+- **OpenCV**: Library used for image preprocessing.
+- **Matplotlib & Seaborn**: Libraries for data visualization.
+- **InceptionV3**: Pre-trained model used as the base for the CNN architecture.
+
+## 📚 Project Structure
+
+CAPTCHA_models/
+- **captcha_model.py**: Functions for image preprocessing.
+- **recaptcha_model.py**: Main script for training the reCAPTCHA model using a CNN.
+- **README.md**: Project documentation.
+
+## 🤝 Contributing
+
+This project is complete, but contributions are welcome! If you have suggestions for improvements or new features, feel free to fork the repository and submit a pull request.
+
+## 💬 Contact
+
+- **GitHub:** [lukepyoungs](https://github.com/lukepyoungs)
+- **Email:** your-email@example.com
+
+---
+
+**Breaking CAPTCHAs with Deep Learning** 🔐
